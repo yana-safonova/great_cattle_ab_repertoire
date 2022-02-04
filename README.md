@@ -1,4 +1,4 @@
-# The great cattle antibody repertoire
+# The Great Cattle Antibody Repertoire
 Longtitudal study of vaccination of 204 calves against the bovine respiratory disease 
 
 ## Repository files
