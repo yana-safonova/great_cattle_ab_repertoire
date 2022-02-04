@@ -14,11 +14,14 @@ Each zipped CSV annotation file describes four Rep-Seq libraries corresponding t
 - Nucleotide and amino acid sequences,
 - Read count,
 - Time point (–3, 0, 3, or 6),
-- IGHV gene hit, IGHJ gene hit,
+- IGHV and IGHJ gene hits,
 - Nucleotide and amino acid sequences of CDR1, CDR2, CDR3,
 - Whether or not CDR3 is ultralong (i.e., the length of CDR3 exceeds 150 nt),
-- ID of the clone. Clones are computed for all sequences from a given time point. A clone is defined as a group of sequences sharing V hit and J hit and having identical CDR3s.
+- Clone ID. Clones are specific to time point, i.e., they are computed for sequences from a given time point. A clone is defined as a group of sequences sharing V hit and J hit and having identical CDR3s.
 - Alignment of the variable gene segment against the closest germline IGHV gene.
+
+## Scripts
+TBA
 
 ## Reference:
 Safonova Y, Shin SB, Kramer L, Reecy J, Watson CT, Smith TPL, Pevzner PA, Revealing how variations in antibody repertoires correlate with vaccine responses, 2021 [[preprint](https://www.biorxiv.org/content/10.1101/2021.08.06.454618v1)].
