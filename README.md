@@ -41,11 +41,7 @@ Each zipped CSV annotation file describes four Rep-Seq libraries corresponding t
 python igqtl.py vgene_genotyping_dir output_dir
 ```
 
-Output directory contains R-ratios of GSVs per V gene and all GSV combined together. Each identified GSV is written as a column and have following format:
-```
-VGENE:POSITION_N1N2 
-```
-where POSITION is 0-based, N1 and N2 are the most abundant and the second most abundant nucleotides at this position, respectively.
+Output directory contains R-ratios of GSVs per V gene and all GSV combined together. Each identified GSV is written as a column and have following format: VGENE:POSITION_N1N2, where POSITION is 0-based, N1 and N2 are the most abundant and the second most abundant nucleotides at this position, respectively.
 
 -  compute_pca_clusters.py: takes the file with R-ratios of GSVs and compute clusters of subjects using PCA:
 ```
