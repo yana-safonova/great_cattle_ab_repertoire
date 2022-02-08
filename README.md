@@ -1,5 +1,5 @@
 # The Great Cattle Antibody Repertoire
-Longtitudal study of vaccination of 204 calves against the bovine respiratory disease 
+Longitudinal study of vaccination of 204 calves against the bovine respiratory disease 
 
 ## Repository files
 - **aux:** antibody titers, calf ages, V gene usages, ultralong CDRH3 fractions;
