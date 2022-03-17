@@ -56,4 +56,4 @@ python compute_pca_clusters.py gsv_r_ratios.txt output_dir
 - sklearn (conda install -c anaconda scikit-learn)
 
 ## Reference:
-Safonova Y, Shin SB, Kramer L, Reecy J, Watson CT, Smith TPL, Pevzner PA, Revealing how variations in antibody repertoires correlate with vaccine responses, 2021 [[preprint](https://www.biorxiv.org/content/10.1101/2021.08.06.454618v1)].
+Safonova Y, Shin SB, Kramer L, Reecy J, Watson CT, Smith TPL, Pevzner PA, Variations in antibody repertoires correlate with vaccine responses. Accepted to _Genome Research_, 2021 [[preprint](https://www.biorxiv.org/content/10.1101/2021.08.06.454618v1)].
